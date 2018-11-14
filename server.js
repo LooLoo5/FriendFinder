@@ -9,8 +9,8 @@ app.use(express.json());
 
 
 
-require('./routing/htmlRoutes')(app);
-require('./routing/apiRoutes')(app);
+require('./routing/htmlRoutes.js')(app);
+require('./routing/apiRoutes.js')(app);
 
 
 app.listen(PORT, function() {
